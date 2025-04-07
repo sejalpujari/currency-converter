@@ -21,23 +21,35 @@ The Currency Converter App is a mobile application built with React Native that 
 - **Components**: Leverages `react-native-modal-dropdown` for currency selection and `FlatList` for displaying recent conversions.
 - **State Management**: Utilizes React hooks (`useState`, `useEffect`, `useRef`) for managing app state and side effects.
 
-## How to Run
-1. **Clone the repository**:
+
+
+## Instructions to Run
+
+1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/currency-converter.git
    cd currency-converter
 
-Install dependencies:
+Install Dependencies:
 bash
 
 npm install
 # or
 yarn install
 
-Install required peer dependencies:
+Install Peer Dependency:
 bash
 
 npm install react-native-modal-dropdown
+
+Set Up Project Structure:
+Ensure the following files are present:
+src/components/CurrencyConverter.js
+
+App.js
+
+src/styles/styles.js
+Adjust imports in App.js if your file structure differs.
 
 Start Metro Bundler:
 bash
@@ -53,6 +65,8 @@ Run on iOS:
 bash
 
 npx react-native run-ios
+
+
 
 Challenges Faced
 
