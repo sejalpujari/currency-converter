@@ -70,17 +70,10 @@ npx react-native run-ios
 
 Challenges Faced
 
-Props Object Containing a Key Props Error: Encountered an error where a component received a props object containing a key prop, which is a reserved prop in React Native. This occurred because the FlatList component automatically assigns a key prop to its items, and passing an additional key prop through the renderItem function caused a conflict. Resolved by ensuring the keyExtractor prop was used instead to uniquely identify list items without interfering with React's internal key management.
+Props Object Containing a Key Props Error: Encountered an error where a component received a props object containing a key prop, which is a reserved prop in React Native. This occurred because the FlatList component automatically assigns a key prop to its items, and passing an additional key prop through the renderItem function caused a conflict. Tried  Resolving  by ensuring the keyExtractor prop was used instead to uniquely identify list items without interfering with React's internal key management.
+still working on that 
 
-API Rate Limiting: The free tier of exchangerate-api.com imposes rate limits, which could affect frequent conversions.
 
-Dropdown Styling: Customizing the react-native-modal-dropdown component required additional styling tweaks to match the app's design.
-
-Number Formatting: Implementing Indian number system formatting alongside standard formatting required careful handling with Intl.NumberFormat.
-
-Expression Evaluation: Safely evaluating user-entered mathematical expressions while preventing security risks (e.g., code injection) was challenging.
-
-Layout Consistency: Ensuring consistent spacing and responsive design across different device sizes required multiple iterations of style adjustments.
 
 
 
